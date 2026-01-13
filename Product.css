@@ -1,0 +1,101 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #333; /* Mimicking the outer border */
+  min-height: 90vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.logo-box {
+  border: 1px solid black;
+  padding: 10px 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav span {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.active { text-decoration: underline; }
+
+.form-section h2 { margin-bottom: 20px; }
+
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.input-group input, .input-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.cost-input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.cost-input-wrapper input { border: none; }
+.currency { padding: 0 10px; }
+
+.input-group small {
+  color: #888;
+  font-size: 11px;
+  display: block;
+  margin-top: 5px;
+}
+
+.button-group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 60px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.btn-save { background-color: #0084ff; color: white; }
+.btn-reset { background-color: #ccc; color: #333; }
+
+.table-section { margin-top: 50px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #000;
+  text-align: center;
+}
+
+th, td { padding: 10px; height: 30px; }
